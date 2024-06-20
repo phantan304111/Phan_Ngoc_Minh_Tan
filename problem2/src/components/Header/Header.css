@@ -1,0 +1,56 @@
+.Header{
+  color: white;
+  padding: 20px 20px 40px 20px;
+  background-color: rgb(39, 116, 13);
+  max-width: 100%;
+  font-size: 14px;
+  align-self: center;
+  
+}
+.Header_content{ 
+  margin: 0 auto;
+  width: 50%;
+}
+.Header__h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Header__text{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.79);
+  margin-bottom: 20px;
+}
+.Header__button{
+  font-size: 14px;
+  color: rgb(245, 245, 245);
+  background-color: rgb(16, 154, 246);
+  padding: 10px 10px;
+  border: 0px;
+}
+.Header__searchbar{
+  padding: 6px;
+  margin-top: 0px;
+  transform: translate(0, 40px); 
+   font-size: 14px;
+  color: rgb(168, 168, 168);
+  border: 4px solid orange;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  gap: auto;
+  align-items: center;
+  
+  justify-content: space-between;
+
+}
+.Header__searchbar_items{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap:2px;
+}
+.Header_input{
+  border: 0px;
+  color: rgb(125, 125, 125);
+}
